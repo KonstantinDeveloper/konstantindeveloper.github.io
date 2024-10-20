@@ -10,6 +10,10 @@
 			fetch('helpers/head.html')
 .then(response => response.text())
 .then(html => document.head.innerHTML = html);
+
+			fetch('helpers/header.html')
+.then(response => response.text())
+.then(html => document.getElementById('header').innerHTML = html);
 </script>
 	</head>
 	<body class="landing">
@@ -177,11 +181,6 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-		<script>
-fetch('helpers/header.html')
-.then(response => response.text())
-.then(html => document.getElementById('header').innerHTML = html);
-</script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
