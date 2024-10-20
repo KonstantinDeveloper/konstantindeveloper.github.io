@@ -20,7 +20,6 @@
 
 			<!-- Header -->
 				<header id="header">
-					<iframe src="header.html"></iframe>
 					<!--<h1 id="logo"><a href="index.html">Persistent Prod</a></h1>
 					<nav id="nav">
 						<ul>
@@ -206,6 +205,11 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+		<script>
+fetch('header.html')
+.then(response => response.text())
+.then(html => document.getElementById('header').innerHTML = html);
+</script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
