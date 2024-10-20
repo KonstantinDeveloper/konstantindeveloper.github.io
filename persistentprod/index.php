@@ -20,9 +20,6 @@
 
 			<!-- Header -->
 				<header id="header">
-					<?php
-                                         echo 'header.html';
-                                        ?>
 					<!--<h1 id="logo"><a href="index.html">Persistent Prod</a></h1>
 					<nav id="nav">
 						<ul>
