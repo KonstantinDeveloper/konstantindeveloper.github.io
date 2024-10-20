@@ -1,14 +1,14 @@
 <!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <script>
-			fetch('https://konstantindevelopher.github.io/helpers/head.html')
+fetch('https://konstantindevelopher.github.io/helpers/head.html')
 .then(response => response.text())
 .then(html => document.head.innerHTML = html);
-			fetch('https://konstantindevelopher.github.io/helpers/header.html')
+
+fetch('https://konstantindevelopher.github.io/helpers/footer.html')
+.then(response => response.text())
+.then(html => document.footer.innerHTML = html);
+	
+fetch('https://konstantindevelopher.github.io/helpers/header.html')
 .then(response => response.text())
 .then(html => document.getElementById('header').innerHTML = html);
 </script>
@@ -22,15 +22,23 @@
 			<!-- Header -->
 				<header id="header">
 				</header>
-                        <div id="main" class="wrapper style1">
-				<div class="container">
-					<header class="major">
-						<h2>СКОРО</h2>
-						<p>Данный сайт находится в активной разработке.</p>
-					</header>
+
+			<!-- Banner -->
+			<section id="banner">
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Отказано в доступе.</h2>
+							<p>Сайт находится в разработке. Вход временно не возможен.</p>
+						</header>
+					</div>
 				</div>
-                        </div>
-		
+			</section>
+-->
+			<!-- Footer -->
+				<footer id="footer">
+				</footer>
+
 		</div>
 
 		<!-- Scripts -->
@@ -41,7 +49,7 @@
 			<script src="https://konstantindevelopher.github.io/assets/js/skel.min.js"></script>
 			<script src="https://konstantindevelopher.github.io/assets/js/main.js"></script>
 			<script src="https://konstantindevelopher.github.io/assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<!--[if lte IE 8]><script src="https://konstantindevelopher.github.io/assets/js/ie/respond.min.js"></script><![endif]-->
 
 	</body>
 </html>
