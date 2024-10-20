@@ -7,9 +7,9 @@
 </head>
 <body>
     <p>
-        <p>TitleId: <input type="text" name="TitleId" id="TitleId" /></p>
+        <p>TitleId: <input type="text" name="TitleId" id="TitleId" />6A8ED</p>
         <p>ClientSessionToken: <input type="password" name="ClientSessionToken" id="ClientSessionToken" /> (automatically saved after login)</p>
-        <p>DevSecretKey: <input type="password" name="DevSecretKey" id="DevSecretKey" /></p>
+        <p>DevSecretKey: <input type="password" name="DevSecretKey" id="DevSecretKey" />8R6WWBTPNQZSRG3RIJUBDMC83O56ECNYZ6F5BE6FEU9BRCNF1C</p>
         <hr />
     </p>
     <p>
