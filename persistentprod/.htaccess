@@ -1,3 +1,4 @@
+Deny from all
 ErrorDocument 500 "test500"
 ErrorDocument 404 "test404"
 ErrorDocument 401 "test401"
