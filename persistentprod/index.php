@@ -20,7 +20,9 @@
 
 			<!-- Header -->
 				<header id="header">
-					<!--<link rel="import" href="header.html">-->
+					<?php
+                                         echo 'header.html';
+                                        ?>
 					<!--<h1 id="logo"><a href="index.html">Persistent Prod</a></h1>
 					<nav id="nav">
 						<ul>
