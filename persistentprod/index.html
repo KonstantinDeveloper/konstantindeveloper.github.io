@@ -5,10 +5,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <script>
-			fetch('helpers/head.html')
+fetch('helpers/head.html')
 .then(response => response.text())
 .then(html => document.head.innerHTML = html);
-			fetch('helpers/header.html')
+
+fetch('helpers/footer.html')
+.then(response => response.text())
+.then(html => document.footer.innerHTML = html);
+	
+fetch('helpers/header.html')
 .then(response => response.text())
 .then(html => document.getElementById('header').innerHTML = html);
 </script>
@@ -202,14 +207,6 @@
 -->
 			<!-- Footer -->
 				<footer id="footer">
-					<ul class="icons">
-						<li><a href="https://youtube.com/@persistentprod9013" class="icon alt fa-youtube"><span class="label">YouTube</span></a></li>
-						<li><a href="https://sites.google.com/view/persistentprodsite/" class="icon alt fa-google"><span class="label">2 Сайт</span></a></li>
-				         	<li><a href="https://discord.gg/2Hp26nE26P" class="icon alt fa-discord"><span class="label">Discord</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Persistent Prod, All rights reserved.</li><li>Работает с 18.10.2024.</li>
-					</ul>
 				</footer>
 
 		</div>
