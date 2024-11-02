@@ -1,25 +1,24 @@
 <!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <script>
-			fetch('helpers/head.html')
+fetch('../helpers/head.html')
 .then(response => response.text())
 .then(html => document.head.innerHTML = html);
-			fetch('helpers/header.html')
+
+fetch('../helpers/footer.html')
+.then(response => response.text())
+.then(html => document.getElementById('footer').innerHTML = html);
+	
+fetch('../helpers/header.html')
 .then(response => response.text())
 .then(html => document.getElementById('header').innerHTML = html);
 </script>
-
 <html>
 	<head>
 	</head>
 	<body class="landing">
-		<div id="page-wrapper">
+			<div id="page-wrapper">
 
-			<!-- Header -->
+						<!-- Header -->
 				<header id="header">
 				</header>
                         <div id="main" class="wrapper style1">
@@ -30,18 +29,22 @@
 					</header>
 				</div>
                         </div>
-		
+			<!-- Footer -->
+				<footer id="footer">
+				</footer>
+
 		</div>
 
+
+
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script src="../assets/js/util.js"></script>
 
 	</body>
 </html>
