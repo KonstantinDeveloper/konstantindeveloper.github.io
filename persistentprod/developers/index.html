@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<script>
+fetch('https://konstantindeveloper.github.io/persistentprod/helpers/head.html')
+.then(response => response.text())
+.then(html => document.head.innerHTML = html);
+
+fetch('https://konstantindeveloper.github.io/persistentprod/helpers/footer.html')
+.then(response => response.text())
+.then(html => document.getElementById('footer').innerHTML = html);
+	
+fetch('https://konstantindeveloper.github.io/persistentprod/helpers/header.html')
+.then(response => response.text())
+.then(html => document.getElementById('header').innerHTML = html);
+</script>
+<html>
+	<head>
+	</head>
+	<body>
+			<div id="main" class="wrapper style1">
+						<header id="header"></header>
+					<div class="container">
+						<header class="major">
+							<h2>Разработчики</h2>
+							<p>Здесь вы найдете нашу информацию и контакты.</p>
+						</header>
+
+						<!-- Text -->
+							<section>
+								<hr>
+										<h4>Референсы для основного трейлера Survaved Online</h4>
+										<ul>
+											<li>Клип Morgenshtern &amp; DJ Smash - Новая Волна</li>
+											  <ul><li>Идея с крестом (перекраска на разьеб моменте с белого в ярко красный)</li>
+											  <li>Церковь или что то подобное (помещение с окустикой)</li>
+											  <li>Мега качевый трек с битами бассом и тд.</li></ul>
+											<li>Продемонстрировать основные механики</li>
+											<li>Показать все быстро но стильно и красиво</li>
+										</ul>
+								<hr>
+							</section>
+						<!-- Table -->
+							<section>
+								<h3>Таблица идей для Survaved Online</h3>
+								
+								<h4>Последнее обновление 03.11.2024</h4>
+								<div class="table-wrapper">
+									<table class="alt">
+										<thead>
+											<tr>
+												<th>Идея</th>
+												<th>Информация</th>
+												<th>Добавлено</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Температура тела</td>
+												<td> Снижение темп. тела при виде/звуке/присудствие мостра.</td>
+												<td>Нет</td>
+											</tr>
+											<tr>
+												<td>Персоны (Люди)</td>
+												<td> Примеры - священник с крестом подовляющим монстра, вампир с ночным видением и тд.</td>
+												<td>В разработке</td>
+											</tr>
+											<tr>
+												<td>Пульс</td>
+												<td> Механика "страха" с визуальными и аудио эффектами.</td>
+												<td>Нет</td>
+											</tr>
+											
+											<tr>
+												<td>Распознование речи</td>
+												<td> Голосовые команды для различных целей.</td>
+												<td>Да</td>
+											</tr>
+											<tr>
+												<td>Своя музыка</td>
+												<td> Загрузка своей музыки в главное меню для разнообразия.</td>
+												<td>Да</td>
+											</tr>
+										</tbody>
+										
+									</table>
+								</div><hr>
+							</section>
+					</div>
+				</div>
+			<!-- Footer -->
+				<footer id="footer">
+				</footer>
+
+		</div>
+
+
+
+		<!-- Scripts -->
+			<script src="./assets/js/jquery.min.js"></script>
+			<script src="./assets/js/jquery.scrolly.min.js"></script>
+			<script src="./assets/js/jquery.dropotron.min.js"></script>
+			<script src="./assets/js/jquery.scrollex.min.js"></script>
+			<script src="./assets/js/skel.min.js"></script>
+			<script src="./assets/js/main.js"></script>
+			<script src="./assets/js/util.js"></script>
+
+	</body>
+</html>
