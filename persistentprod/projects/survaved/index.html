@@ -1,34 +1,30 @@
 <!DOCTYPE HTML>
 <script>
-fetch('https://konstantindevelopher.github.io/persistentprod/helpers/head.html')
+fetch('https://konstantindeveloper.github.io/persistentprod/helpers/head.html')
 .then(response => response.text())
 .then(html => document.head.innerHTML = html);
 
-fetch('https://konstantindevelopher.github.io/persistentprod/helpers/footer.html')
+fetch('https://konstantindeveloper.github.io/persistentprod/helpers/footer.html')
 .then(response => response.text())
 .then(html => document.getElementById('footer').innerHTML = html);
 	
-fetch('https://konstantindevelopher.github.io/persistentprod/helpers/header.html')
+fetch('https://konstantindeveloper.github.io/persistentprod/helpers/header.html')
 .then(response => response.text())
 .then(html => document.getElementById('header').innerHTML = html);
 </script>
 <html>
 	<head>
 	</head>
-	<body class="landing">
-			<div id="page-wrapper">
-
-						<!-- Header -->
-				<header id="header">
-				</header>
-                        <div id="main" class="wrapper style1">
-				<div class="container">
-					<header class="major">
-						<h2>СКОРО</h2>
-						<p>Данный сайт находится в активной разработке.</p>
-					</header>
+	<body>
+			<div id="main" class="wrapper style1">
+						<header id="header"></header>
+					<div class="container">
+						<header class="major">
+							<h2>СКОРО</h2>
+							<p>Сайт находится в активной разработке.</p>
+						</header>
+					</div>
 				</div>
-                        </div>
 			<!-- Footer -->
 				<footer id="footer">
 				</footer>
